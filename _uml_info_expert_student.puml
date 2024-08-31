@@ -1,0 +1,18 @@
+@startuml
+class app.StudentService {
++ void printStudentInfo(Student)
+}
+
+class app.Main {
++ {static} void main(String[])
+}
+
+class app.Student {
+- String name
+- int age
++ String getName()
++ int getAge()
+}
+
+
+@enduml
